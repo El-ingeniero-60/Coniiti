@@ -13,7 +13,6 @@ class Creditos : AppCompatActivity() {
         setContentView(R.layout.activity_creditos)
 
         //BOTON PARA VOLVER AL MENU
-
         val btn_cr_m = findViewById<Button>(R.id.btn_cr_menu)
         btn_cr_m.setOnClickListener {
             val vlrmenu = Intent(this, Menu::class.java)

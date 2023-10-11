@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //BOTON IR AL MENU
         val btnNext = findViewById<Button>(R.id.btn_ing)
         btnNext.setOnClickListener {
             val pasarIntro = Intent(this, Introduccion::class.java)

@@ -11,7 +11,7 @@ class Ponencia3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ponencia3)
-
+        //BOTON VOLVER AL MENU
         val btnVoMenu2 = findViewById<Button>(R.id.btn_pon3_vm)
         btnVoMenu2.setOnClickListener {
             val p1M = Intent(this, Menu::class.java)

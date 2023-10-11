@@ -12,6 +12,7 @@ class Ponencia1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ponencia1)
 
+        //BOTON VOLVER AL MENU
         val btnVoMenu = findViewById<Button>(R.id.btn_pon1_vm)
         btnVoMenu.setOnClickListener {
             val prM = Intent(this, Menu::class.java)
