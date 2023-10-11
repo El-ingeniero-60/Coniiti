@@ -15,6 +15,7 @@ class Ponencia2 : AppCompatActivity() {
         btnVoMenu1.setOnClickListener {
             val prM = Intent(this, Menu::class.java)
             startActivity(prM)
+
         }
     }
 }

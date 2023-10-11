@@ -18,8 +18,6 @@ class Creditos : AppCompatActivity() {
         btn_cr_m.setOnClickListener {
             val vlrmenu = Intent(this, Menu::class.java)
             startActivity(vlrmenu)
-
-
         }
     }
 }

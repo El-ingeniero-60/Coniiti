@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         btnNext.setOnClickListener {
             val pasarIntro = Intent(this, Introduccion::class.java)
             startActivity(pasarIntro)
+
         }
     }
 }

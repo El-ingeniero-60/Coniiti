@@ -39,6 +39,7 @@ class Menu : AppCompatActivity() {
         val btn_salir= findViewById<Button>(R.id.btn_salir)
         btn_salir.setOnClickListener {
             finishAffinity()
+
         }
     }
 }

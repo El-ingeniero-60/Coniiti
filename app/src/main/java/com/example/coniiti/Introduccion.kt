@@ -14,6 +14,7 @@ class Introduccion : AppCompatActivity() {
         btnMenu.setOnClickListener {
             val pasarMenu = Intent(this, Menu::class.java)
             startActivity(pasarMenu)
+
         }
     }
 }
