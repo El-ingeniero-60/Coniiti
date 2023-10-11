@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ponencia2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="169dp"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/conf2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Ponente: Jhon Edison Villarreal"
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Pais: Colombia"
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Modalidad: Presencial"
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Linea:-"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="399dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Conferencia: Ahorre y Mejore con Sistemas de
+Energías Renovables"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="402dp"
+        android:layout_height="268dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="La conferencia se relacionaba con las diferentes formas el cual se pueden mejorar las energias renovables, como es el biogas, una de las fuentes que ahora ayuda a generar energia sustentable, de igual forma esta la energia heolica,segun el conferencista, se puede evidenciar, por medio de graficas expuestas por el ingeniero Villarreal, graficas sustentan de que formas las fuentes de ahora han ayudado a las nuevas formas de energia, el cual se puden ver ahora en empresas, o de igual forma en las viviendas de ahora, haciendo referencia a los paneles solares, observando que ahora en diferentes paises, se esta obtando por usar otros metodos de energia."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <Button
+        android:id="@+id/btn_pon2_vm"
+        android:layout_width="226dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/BLUE_OS"
+        android:fontFamily="@font/dm_sans"
+        android:text="VOLVER AL MENU"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

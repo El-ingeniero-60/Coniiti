@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ponencia1">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="169dp"
+        android:layout_height="185dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/conf1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Ponente:  Ricardo Carramiñana "
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Pais: España"
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:text="Modalidad: Virtual"
+        android:fontFamily="@font/dm_sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.149" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="219dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Linea: Virtual, Innovacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.213" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="399dp"
+        android:layout_height="38dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Conferencia:  Emprendiendo en el sector de la Ingeniería y Arquitectura: Claves para el éxito "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.307" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="402dp"
+        android:layout_height="268dp"
+        android:fontFamily="@font/dm_sans"
+        android:text="Síntesis de la temática principal de la conferencia:\nLa ponencia se centro de como el ponente Ricardo Carramiñana, a podido crear su empresa\nEADIC, el cual es una empresa de ingenieros civiles, dicha empresa ofrece servicios de\naprendizaje virtuales, centrándose en como los ingenieros pueden crear empresa, para de esa forma brindar servicios al mundo, el cual nos daba como ejemplo uno de los cofundadores de Google, el cual decía en una entrevista que a ellos no los motiva el dinero,
+si no en dar servicios a las personas, cita la frase de Larry Page “Si estuviéramos interesados
+en el dinero, ya hubiéramos vendido Google y estaríamos en la playa”, centrándose en que
+las empresas o compañías se crean para brindar servicios. "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.596" />
+
+    <Button
+        android:id="@+id/btn_pon1_vm"
+        android:layout_width="226dp"
+        android:layout_height="76dp"
+        android:backgroundTint="@color/BLUE_OS"
+        android:fontFamily="@font/dm_sans"
+        android:text="VOLVER AL MENU"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+</androidx.constraintlayout.widget.ConstraintLayout>
